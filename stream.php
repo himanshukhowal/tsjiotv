@@ -23,6 +23,8 @@ if (@$_REQUEST["key"] != "") {
         'User-Agent' => 'plaYtv/6.0.9 (Linux; Android 5.1.1) ExoPlayerLib/2.13.2',
         'CLIENT-IP' => '205.254.172.105',
         'X-FORWARDED-FOR' => '205.254.172.105',
+        'X-Real-IP' => '205.254.172.105',
+        'CF-Connecting-IP' => '205.254.172.105',
         'usergroup' => 'tvYR7NSNn7rymo3F',
         'versionCode' => '260'
     );
