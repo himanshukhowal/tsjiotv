@@ -22,7 +22,9 @@ if (@$_REQUEST["key"] != "") {
         'uniqueId' => "$uniqueId",
         'User-Agent' => 'plaYtv/6.0.9 (Linux; Android 5.1.1) ExoPlayerLib/2.13.2',
         'usergroup' => 'tvYR7NSNn7rymo3F',
-        'versionCode' => '260'
+        'versionCode' => '260',
+        'CLIENT-IP' => '205.254.172.105',
+        'X-FORWARDED-FOR' => '205.254.172.105'
     );
     $opts = ['http' => ['method' => 'GET', 'header' => array_map(function ($h, $v) {
         return "$h: $v";
