@@ -50,7 +50,7 @@ if (@$_REQUEST["ts"] != "") {
     header("Access-Control-Expose-Headers: Content-Length,Content-Range");
     header("Access-Control-Allow-Headers: Range");
     header("Accept-Ranges: bytes");
-    $opts = ["http" => ["method" => "GET", "header" => "User-Agent: plaYtv/6.0.9 (Linux; Android 5.1.1) ExoPlayerLib/2.13.2"]];
+    $opts = ["http" => ["method" => "GET", "header" => "User-Agent: plaYtv/6.0.9 (Linux; Android 5.1.1) ExoPlayerLib/2.13.2\r\nCLIENT-IP: 205.254.172.105\r\nX-FORWARDED-FOR: 205.254.172.105"]];
 
     $context = stream_context_create($opts);
     $haystack = file_get_contents("https://jiotv.live.cdn.jio.com/" . $_REQUEST["ts"], false, $context);
