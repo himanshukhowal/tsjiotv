@@ -75,12 +75,12 @@ https://s3.dlandroid.com/apps/KSWEB-server[dlandroid.com].apk
 4. Put Your E-Mail or Mobile Number without +91 & Password in below Link <br>
 
 ```py
-https://tsjiotv.herokuapp.com/tsjiotv/login.php
+https://tsjiotv.herokuapp.com/login.php
 ```
 7. Now Open [JIOTV WEB] Below Link :
 
 ```py
-https://tsjiotv.herokuapp.com/tsjiotv/
+https://tsjiotv.herokuapp.com/
 ```
 
 8. Click above link in any Browser . You Will See all Jio Channels . <br>
@@ -91,11 +91,11 @@ https://tsjiotv.herokuapp.com/tsjiotv/
 • In Player Put Links Format Like Below
 
   ```py
-https://tsjiotv.herokuapp.com/tsjiotv/live.php?c=Channel_Name&q=Quality
+https://tsjiotv.herokuapp.com/live.php?c=Channel_Name&q=Quality
   ```
 
 ```py
-https://tsjiotv.herokuapp.com/tsjiotv/live.php?c=And_Pictures_HD&q=800
+https://tsjiotv.herokuapp.com/live.php?c=And_Pictures_HD&q=800
 ```
 
 • Depending on Your Server Change Links
@@ -106,19 +106,19 @@ https://tsjiotv.herokuapp.com/tsjiotv/live.php?c=And_Pictures_HD&q=800
 • In Tivimate or OTT Navigator Player Put Links Format Like Below :<br>
 
   ```py
-https://tsjiotv.herokuapp.com/tsjiotv/playlist.php
+https://tsjiotv.herokuapp.com/playlist.php
   ```
 
 • For Local Playlist :<br>
 
   ```py
-https://tsjiotv.herokuapp.com/tsjiotv/localplaylist.m3u
+https://tsjiotv.herokuapp.com/localplaylist.m3u
   ```
 
 • <b>FOR DIFFERENT QUALITY USE BELOW LINKS : </b><br>
 
   ```py
-https://tsjiotv.herokuapp.com/tsjiotv/localplaylists/jio240p.m3u
+https://tsjiotv.herokuapp.com/localplaylists/jio240p.m3u
   ```
 • Now Change Above URL Like : jio240p to jio400p , jio600p ,etc. for Quality Change.</b>
 • Hurrah !! Now Play & Enjoy with your Jio Channels .</b><br>
