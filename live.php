@@ -9,6 +9,8 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Expose-Headers: Content-Length,Content-Range");
 header("Access-Control-Allow-Headers: Range");
 header("Accept-Ranges: bytes");
+header("CLIENT-IP: 205.254.172.105");
+header("X-FORWARDED-FOR: 205.254.172.105");
 
 $_SESSION["p"] = $token;
 
