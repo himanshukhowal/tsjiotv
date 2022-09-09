@@ -11,14 +11,6 @@
         "cache-control": "s-maxage=604800"
       },
       "dest": "/assets/$1"
-    },
-    {
-      "src": "/play(.*)",
-      "dest": "api/play.php"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "api/index.php"
     }
   ]
 }
