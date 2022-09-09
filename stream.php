@@ -30,10 +30,7 @@ if (@$_REQUEST["key"] != "") {
         'usergroup' => 'tvYR7NSNn7rymo3F',
         'versionCode' => '260'
     );
-    $opts = ['http' => ['method' => 'GET', 'header' => array_map(function ($h, $v) {
-        return "$h: $v";
-    }
-        , array_keys($headers), $headers),]];
+    $opts = ['http' => ['method' => 'GET', 'header' => "appkey: NzNiMDhlYzQyNjJm\r\nchannelid: 0\r\ncrmid: "$crm",deviceId: 3022048329094879\r\ndevicetype: phone\r\nisott: true\r\nlanguageId: 6\r\nlbcookie: 1\r\nos: android\r\nosVersion: 5.1.1\r\nsrno: 200206173037\r\nssotoken: "$ssoToken",subscriberId: "$crm",uniqueId: "$uniqueId",User-Agent: plaYtv/6.0.9 (Linux; Android 5.1.1) ExoPlayerLib/2.13.2\r\nTrue-Client-IP: 205.254.172.105\r\nCLIENT-IP: 205.254.172.105\r\nX-FORWARDED-FOR: 205.254.172.105\r\nX-Real-IP: 205.254.172.105\r\nCF-Connecting-IP: 205.254.172.105\r\nx-original-forwarded-for: 205.254.172.105\r\nusergroup: tvYR7NSNn7rymo3F\r\nversionCode: 260"]];
 
     $cache = str_replace("/", "_", $_REQUEST["key"]);
 
