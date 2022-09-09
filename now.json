@@ -15,10 +15,9 @@
     {
       "src": "/main",
       "dest": "api/index.php"
-    },
-    {
-      "src": "/play.php(?<id>[^/]*)",
-      "dest": "api/play.php$id"
     }
+  ],
+  "rewrites" : [
+    { "source": "/play.php", "destination": "/api/play.php" }
   ]
 }
