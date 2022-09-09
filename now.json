@@ -13,8 +13,8 @@
       "dest": "/assets/$1"
     },
     {
-      "src": "/main",
-      "dest": "/api/play.php?c=Colors_HD"
+      "src": "/",
+      "dest": "/api/index.php"
     }
   ]
 }
