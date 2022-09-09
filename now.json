@@ -4,18 +4,21 @@
       "runtime": "vercel-php@0.3.1"
     }
   },
-  "rewrites" : [
+  "routes": [
     {
-      "source": "/assets/(.*)",
+      "src": "/assets/(.*)",
       "headers": {
         "cache-control": "s-maxage=604800"
       },
-      "destination": "/assets/$1"
+      "dest": "/assets/$1"
     },
     {
-      "source": "/main",
-      "destination": "api/index.php"
+      "src": "/main",
+      "dest": "api/index.php"
     },
-    { "source": "/play.php", "destination": "/api/play.php" }
+    {
+      "src": "/play\\.php",
+      "dest": "api/play.php"
+    }
   ]
 }
