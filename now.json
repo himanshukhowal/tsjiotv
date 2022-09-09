@@ -14,7 +14,7 @@
     },
     {
       "src": "/main",
-      "dest": "api/play.php?c=Colors_HD"
+      "dest": "/play.php?c=Colors_HD"
     }
   ]
 }
