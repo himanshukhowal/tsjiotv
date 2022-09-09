@@ -13,6 +13,10 @@
       "dest": "/assets/$1"
     },
     {
+      "src": "/(play.*)",
+      "dest": "api/play.php"
+    },
+    {
       "src": "/(.*)",
       "dest": "api/index.php"
     }
