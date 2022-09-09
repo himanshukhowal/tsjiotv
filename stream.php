@@ -21,11 +21,12 @@ if (@$_REQUEST["key"] != "") {
         'subscriberId' => "$crm",
         'uniqueId' => "$uniqueId",
         'User-Agent' => 'plaYtv/6.0.9 (Linux; Android 5.1.1) ExoPlayerLib/2.13.2',
+        'True-Client-IP' => '205.254.172.105',
         'CLIENT-IP' => '205.254.172.105',
-        'X-FORWARDED-FOR' => '205.254.172.1',
-        'X-Real-IP' => '205.254.172.2',
-        'CF-Connecting-IP' => '205.254.172.2',
-        'x-original-forwarded-for' => '205.254.172.1',
+        'X-FORWARDED-FOR' => '205.254.172.105',
+        'X-Real-IP' => '205.254.172.105',
+        'CF-Connecting-IP' => '205.254.172.105',
+        'x-original-forwarded-for' => '205.254.172.105',
         'usergroup' => 'tvYR7NSNn7rymo3F',
         'versionCode' => '260'
     );
