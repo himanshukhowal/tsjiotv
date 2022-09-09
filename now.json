@@ -17,7 +17,7 @@
       "dest": "api/index.php"
     },
     {
-      "src": "/play(.*)",
+      "src": "/(play.*)",
       "dest": "api/play.php"
     }
   ]
