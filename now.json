@@ -17,8 +17,8 @@
       "dest": "/api/index.php"
     },
     {
-      "src": "/play.php(?<id>[^/]+)",
-      "dest": "/api/play.php$id"
+      "src": "/play.php",
+      "dest": "/api/play.php"
     }
   ]
 }
