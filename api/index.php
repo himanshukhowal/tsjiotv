@@ -39,7 +39,7 @@
             </div>
         </div>
     </div>
-    <script src="api/assets/search.js"></script>
+    <script src="assets/search.js"></script>
 </body>
 
 </html>
