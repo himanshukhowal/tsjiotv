@@ -39,7 +39,6 @@ if (@$_REQUEST["key"] != "") {
 
     if (!file_exists($cache)) {
         $context = stream_context_create($opts);
-        error_log(print_r($opts, TRUE)); 
         $haystack = file_get_contents("https://tv.media.jio.com/streams_live/" . $_REQUEST["key"] . $token, false, $context);
     } else {
         $haystack = file_get_contents($cache);
