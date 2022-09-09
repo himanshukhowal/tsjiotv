@@ -39,7 +39,7 @@
             </div>
         </div>
     </div>
-    <script src="assets/search.js"></script>
+    <script src="https://tsjiotv-himanshukhowal.vercel.app/assets/search.js"></script>
 </body>
 
 </html>
